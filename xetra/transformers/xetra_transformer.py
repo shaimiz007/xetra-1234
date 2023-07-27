@@ -3,7 +3,6 @@ import logging
 from datetime import datetime
 from typing import NamedTuple
 
-
 import pandas as pd
 
 from xetra.common.s3 import S3BucketConnector

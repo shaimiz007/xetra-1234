@@ -5,17 +5,18 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+boto3 = "*"
+pyyaml = "*"
+
+
+[dev-packages]
 awscli = "*"
 jupyter = "*"
-boto3 = "*"
-pyarrow = "*"
-s3fs = "*"
-pyyaml = "*"
 pylint = "*"
 moto = "*"
 coverage = "*"
-
-[dev-packages]
+pyarrow = "*"
+s3fs = "*"
 
 [requires]
 python_version = "3.11"
